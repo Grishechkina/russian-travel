@@ -3,6 +3,11 @@
   justify-content: space-between;
   margin: auto;
   max-width: 1184px;
-  height: 52px;
-  padding-bottom: 48px;
+  padding-bottom: 45px;
+}
+
+@media (min-width: 1280px) {
+  .header {
+    padding-bottom: 53px;
+  }
 }

@@ -1,5 +1,16 @@
 .lead__image {
-  margin-top: 56px;
   width: 100%;
   object-fit: contain;
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+  .lead__image {
+    width: calc(100% + 24px * 2);
+  }
+}
+
+@media (max-width: 399px) {
+  .lead__image {
+    width: calc(100% + 16px * 2);
+  }
 }

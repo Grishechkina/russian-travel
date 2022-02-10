@@ -5,4 +5,17 @@
   padding: 28px 48px 24px 48px;
   -webkit-font-smoothing: antialiased; 
   -moz-osx-font-smoothing: grayscale;
+  min-width: 280px;
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+  .page {
+    padding: 28px 24px 24px 24px;
+  }
+}
+
+@media (max-width: 499px) {
+  .page {
+    padding: 16px 16px 24px 16px;
+  }
 }

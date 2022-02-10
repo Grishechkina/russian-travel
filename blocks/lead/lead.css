@@ -3,4 +3,18 @@
   flex-direction: column;
   align-items: center;
   padding-bottom: 92px;
+  max-width: 984px;
+  margin: auto;
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+  .lead {
+    padding-bottom: 89px;
+  }
+}
+
+@media (max-width: 399px) {
+  .lead {
+    padding-bottom: 64px;
+  }
 }
