@@ -1,13 +1,11 @@
 .cover__background {
-  margin: 0;
-  padding: 0;
-  margin: auto;
+  margin: 0 auto;
+  padding: 195px 232px;
   text-decoration: none;
   color: #fff;
   width: calc(100% + 48px * 2);
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
-  padding: 195px 232px;
   position: relative;
   left: -48px;
   box-sizing: border-box;
