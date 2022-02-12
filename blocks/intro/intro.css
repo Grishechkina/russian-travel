@@ -8,3 +8,15 @@
     margin-left: calc((100% - 984px) / 2);
   }
 }
+
+@media (min-width: 400px) and (max-width: 769px) {
+  .intro {
+    padding-bottom: 87px;
+  }
+}
+
+@media (max-width: 399px) {
+  .intro {
+    padding-bottom: 64px;
+  }
+} 

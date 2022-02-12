@@ -1,9 +1,13 @@
 .places {
   padding-bottom: 92px;
+  margin: auto;
+  max-width: 984px;
 }
 
-@media (min-width: 1280px) {
-  .places  {
-    margin-left: 100px;
+@media (max-width: 399px) {
+  .places {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 66px;
   }
 }

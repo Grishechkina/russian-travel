@@ -1,9 +1,23 @@
 .place {
-  width: 928px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: max-content 2fr;
-  grid-auto-flow: column;
+  grid-template-columns: minmax(288px, 1fr) 1fr;
+  grid-template-rows: min-content 2fr;
   row-gap: 48px;
   column-gap: 17px;
+}
+
+@media (min-width: 400px) and (max-width: 769px) {
+  .place  {
+    column-gap: 20px;
+    row-gap: 45px;
+  }
+}
+
+@media (max-width: 399px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+  }
 }

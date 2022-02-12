@@ -3,7 +3,21 @@
   font-size: 18px;
   line-height: 29px;
   margin-bottom: 27px;
+  max-width: 484px;
 }
 .place__paragraph:last-of-type {
   margin-bottom: 0;
+}
+
+@media (max-width: 769px) {
+  .place__paragraph  {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 399px) {
+  .place__paragraph  {
+    white-space: pre-line;
+  }
 }

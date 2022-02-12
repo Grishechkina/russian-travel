@@ -1,5 +1,12 @@
 .place__image {
-  width: 440px;
-  height: 440px;
-  display: block
+  width: 97%;
+  max-width: 460px;
+  object-fit: contain;
+}
+
+@media (max-width: 399px) {
+  .place__image  {
+    width: calc(100% + 16px * 2);
+    align-self: center;
+  }
 }
