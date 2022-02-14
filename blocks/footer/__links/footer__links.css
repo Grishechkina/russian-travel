@@ -1,9 +1,12 @@
 .footer__links {
-  margin: 0;
-  padding: 0;
-  list-style: none;
   display: flex;
   gap: 19px;
+}
+
+@media  (min-width: 400px) and (max-width: 535px) {
+  .footer__links {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 399px) {

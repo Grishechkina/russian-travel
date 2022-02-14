@@ -47,7 +47,7 @@
   }
 }
 
-@media (max-width: 399px) {
+@media (max-width: 535px) {
   .cover__background {
     width: calc(100% + 16px * 2);
     left: -16px;

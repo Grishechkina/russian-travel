@@ -4,9 +4,3 @@
   line-height: 26px;
   padding-bottom: 33px;
 }
-
-@media (max-width: 399px) {
-  .intro__text  {
-    line-height: 26px;
-  }
-}
